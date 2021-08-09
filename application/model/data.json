@@ -1,0 +1,74 @@
+{
+    "pageTextData": [
+		{
+			"title": "Coca Cola Great Britain",
+			"subTitle": "United States, 1886",
+			"description": "The Coca Cola Company is the world's leading manufacturer, marketer and distributor of non-alcoholic beverage concentrates and syrups, and produces nearly 400 brands."
+		},
+		{
+			"title": "Sprite",
+			"subTitle": "Germany, 1961",
+			"description": "Sprite was first developed in West Germany in 1959 as Fanta Klare Zitrone and was introduced in the United States under the current brand name Sprite in 1961 as a competitor to 7 Up."
+		},
+		{
+			"title": "Coke",
+			"subTitle": "New York Harbour, 1886",		
+			"description": "In 1886 in New York Harbour, workers were constructing the Statue of Liberty. Eight hundred miles away, another great American symbol was about to be unveiled. Like many people who change history, John Pemberton, an Atlanta pharmacist, was inspired by simple curiosity. One afternoon, he stirred up a fragrant, caramel-coloured liquid and, when it was done ... booyah! He had invented Coca Cola."
+		},
+		{
+			"title": "Dr Pepper",
+			"subTitle": "Texas, 1885",
+			"description": "Dr Pepper is a carbonated soft drink. It was created in the 1880s by pharmacist Charles Alderton in Waco, Texas, and first served around 1885."
+		},
+		{
+			"x3dModelTitle": "Dr Pepper X3D Model",
+			"x3dCreationMethod": "This X3D model of the Dr Pepper can has been created in 3ds Max, exported to VRML97 and converted, using the instantreality transcoders, to X3D for display online.",
+			"title": "History of Dr Pepper",
+			"subTitle": "From World War 2",		
+			"description": "“Dr Pepper”, a brand name that comes from the German word “Fantasie”, meaning “imagination”. Why does this beloved fizzy drink have a name with German routes, you may be wondering? Well, Fanta was first created in Germany! Yes, that’s right. Fanta came about during the Second World War when there was a trading ban between Germany and any of the Allies’ countries. The Coca-Cola Company, therefore, wasn’t able to bring in the syrup that they needed to produce Coca Cola, and a new soda was invented in its place. It was Dr. Schetelig that was able to bring about this new drink, using only the ingredients that they could procure within Germany. The first Fanta drink was made mainly of apple fibre and a by-product that comes from the process of making cheese. The drink was yellow in colour, yet tasted of oranges. Though Dr. Schetelig is responsible for the formula of Fanta, it was a salesman that decided on the name. This man was Joe Knipp. Coca-Cola liked the name enough to keep it, and Fanta went on to be the second drink that Coca-Cola ever made."
+		},
+		{
+			"x3dModelTitle": "Coke Can X3D Model",
+			"x3dCreationMethod": "This X3D model of the coke can has been created in 3ds Max, exported to VRML97 and converted, using the instantreality transcoders, to X3D for display online.",
+			"title": "Coke Can",
+			"subTitle": "First introduced in 1886",
+			"description": "The product that has given the world its best-known taste was born in Atlanta, Georgia, on May 8, 1886. Dr. John Stith Pemberton, a local pharmacist, produced the syrup for Coca-Cola, and carried a jug of the new product down the street to Jacobs' Pharmacy, where it was sampled, pronounced 'excellent' and placed on sale for five cents a glass as a soda fountain drink. Carbonated water was teamed with the new syrup to produce a drink that was at once 'Delicious and Refreshing', a theme that continues to echo today wherever Coca-Cola is enjoyed.."
+		},
+		{
+			"x3dModelTitle": "Costa X3D Model",
+			"x3dCreationMethod": "This X3D model of the costa cup has been created in 3ds Max, exported to VRML97 and converted, using the instantreality transcoders, to X3D for display online.",
+			"title": "Costa",
+			"subTitle": "50 years' experience of crafting the finest quality coffee",
+			"description": "We've 50 years' experience of crafting the finest quality coffee. From revolutionary methods and commitment to quality to unforgettable successes that have made Costa Coffee the Nation’s Favourite* coffee shop, our story is as unique as our coffee. But first, let’s start with how every good story should. At the very beginning. The Costa Coffee story began back in 1971 when Sergio and Bruno arrived in London with a burning desire to make great tasting coffee a part of everyday life. Setting up a small roastery in Fenchurch Street, they committed to crafting the finest quality coffee. It was here the Costa brothers blind-tested 112 variations of coffee before they tasted one good enough to be our signature blend. They named it ‘Mocha Italia’ and it remains our signature blend to this day."
+		},
+		{
+			"galleryTitle": "3D Images",
+			"galleryDescription": "Products From the Coca-Cola Franchise."
+		},
+		{
+			"CameraTitle": "Camera Views",
+			"CameraSubtitle": "These buttons select a range of X3D model viewpoints"
+		},
+		{
+			"AnimationTitle": "Animation Options",
+			"AnimationSubtitle": "These buttons select a range of X3D animation options"
+		},
+
+		{
+			"RenderTitle": "Render and Lighting Options",
+			"RenderSubtitle": "These buttons select a limited number of render and lighting options; use the dropdown menus for more options"
+		},
+		{
+			"AboutTitle": "Statement of Originality and Intellectual Property",
+			"AboutDescription": "This report is submitted as part requirement for the degree of Computer Science with Artificial Intelligence at the University of Sussex. It is a product of my labour except where indicated in the text. The report may be freely copied and distributed provided the source is acknowledged."
+		},
+		{
+			"x3dModelTitle": "Sprite Bottle X3D Model",
+			"x3dCreationMethod": "This X3D model of the sprite bottle has been created in 3ds Max, exported to VRML97 and converted, using the instantreality transcoders, to X3D for display online.",
+			"title": "Sprite",
+			"subTitle": "Crisp, refreshing and clean-tasting,",
+			"description": "Sprite is a lemon and lime-flavoured soft drink. It first hit shop shelves back in 1961 and today it’s sold in more than 190 countries."
+		}
+
+	]
+}
