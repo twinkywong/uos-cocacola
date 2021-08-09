@@ -6,19 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="../application/css/bootstrap.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="./application/css/bootstrap.css" crossorigin="anonymous">
 
     <!-- X3DOM.css -->
-    <link rel='stylesheet' type='text/css' href='../application/css/x3dom.css'>
+    <link rel='stylesheet' type='text/css' href='./application/css/x3dom.css'>
     
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="../application/css/custom.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="./application/css/custom.css" crossorigin="anonymous">
 
       <!-- Lets have some fonts -->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
     <!-- fancyBox3 -->
-    <link rel="stylesheet" type="text/css" href="../application/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" type="text/css" href="./application/css/jquery.fancybox.min.css">
     
     <title>Coca Cola Brand</title>
   </head>
@@ -83,8 +83,8 @@
             <!--Sprite column-->
             <div class="col-sm-4">
               <div class="card img-narrow">
-                <a href="../application/assets/images/renderImages/sprite.jpg" data-fancybox data-caption="My 3D Sprite Can Render">
-                  <img class="card-img-top img-fluid img-thumbnail" src="../application/assets/images/sprite.jpg" alt="Sprite">
+                <a href="./application/assets/images/renderImages/sprite.jpg" data-fancybox data-caption="My 3D Sprite Can Render">
+                  <img class="card-img-top img-fluid img-thumbnail" src="./application/assets/images/sprite.jpg" alt="Sprite">
                 </a>
                 <div class="card-body">
                   <div id="title_left" class="card-title drinksText"></div>
@@ -97,8 +97,8 @@
             <!--Coke column-->
             <div class="col-sm-4">
               <div class="card">
-                <a href="../application/assets/images/renderImages/coke.jpg" data-fancybox data-caption="My 3D Coke Bottle Render" class="img-narrow">
-                  <img class="card-img-top img-fluid img-thumbnail" src="../application/assets/images/coca_cola.jpg" alt="Sprite">
+                <a href="./application/assets/images/renderImages/coke.jpg" data-fancybox data-caption="My 3D Coke Bottle Render" class="img-narrow">
+                  <img class="card-img-top img-fluid img-thumbnail" src="./application/assets/images/coca_cola.jpg" alt="Sprite">
                 </a>
                 <div class="card-body">
                   <div id="title_centre" class="card-title drinksText"></div>
@@ -111,8 +111,8 @@
             <!--Costa column-->
             <div class="col-sm-4">
               <div class="card img-narrow">
-                <a href="../application/assets/images/renderImages/pepper.jpg" data-fancybox data-caption="My 3D Dr Pepper Render" >
-                  <img class="card-img-top img-fluid img-thumbnail" src="../application/assets/images/dr_pepper.jpg" alt="Dr Pepper">
+                <a href="./application/assets/images/renderImages/pepper.jpg" data-fancybox data-caption="My 3D Dr Pepper Render" >
+                  <img class="card-img-top img-fluid img-thumbnail" src="./application/assets/images/dr_pepper.jpg" alt="Dr Pepper">
                 </a>
                 <div class="card-body">
                   <div id="title_right" class="card-title drinksText"></div>
@@ -177,16 +177,16 @@
                         <scene>
                           <Switch whichChoice="0" id='SceneSwitch'>
                             <transform>
-                              <inline nameSpaceName="model" mapDEFToID="true" onclick="animateModel();" url="../application/assets/x3d/fanta.x3d" > </inline>
+                              <inline nameSpaceName="model" mapDEFToID="true" onclick="animateModel();" url="./application/assets/x3d/fanta.x3d" > </inline>
                             </transform>
                             <transform>
-                              <inline nameSpaceName="model" mapDEFToID="true" onclick="animateModel();" url="../application/assets/x3d/cocacola.x3d"> </inline>
+                              <inline nameSpaceName="model" mapDEFToID="true" onclick="animateModel();" url="./application/assets/x3d/cocacola.x3d"> </inline>
                             </transform>
                             <transform>
-                              <inline nameSpaceName="model" mapDEFToID="true" onclick="animateModel();" url="../application/assets/x3d/costa.x3d"> </inline>
+                              <inline nameSpaceName="model" mapDEFToID="true" onclick="animateModel();" url="./application/assets/x3d/costa.x3d"> </inline>
                             </transform>
                             <transform>
-                              <inline nameSpaceName="model" mapDEFToID="true" onclick="animateModel();" url="../application/assets/x3d/cokecan.x3d"> </inline>
+                              <inline nameSpaceName="model" mapDEFToID="true" onclick="animateModel();" url="./application/assets/x3d/cokecan.x3d"> </inline>
                             </transform>
                           </Switch>
                         </scene>
@@ -407,7 +407,7 @@
       <nav id="footerColor" class="navbar navbar-expand-sm footer">
           <div class="container-fluid">   
               <div class="navbar-text float-left copyright">
-                  <p><span class="align-baseline">&copy 2021 3D Apps | <a href="javascript:changeLook()">Restyle</a> | <a href="javascript:changeBack()">Reset</a> | <a href="../application/assets/x3d.zip">Download Models</a></span></p>
+                  <p><span class="align-baseline">&copy 2021 3D Apps | <a href="javascript:changeLook()">Restyle</a> | <a href="javascript:changeBack()">Reset</a> | <a href="./application/assets/x3d.zip">Download Models</a></span></p>
               </div>
               <div class="navbar-text float-right social">
                   <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
@@ -447,23 +447,23 @@
 
       <!-- JavaScript -->
       <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-      <script src="../application/js/jquery-3.2.1.js" crossorigin="anonymous"></script>
-      <script src="../application/js/popper.min.js" crossorigin="anonymous"></script>
-      <script src="../application/js/bootstrap.min.js" crossorigin="anonymous"></script>
-      <script src="../application/js/fontawesome-all.min.js"></script>
+      <script src="./application/js/jquery-3.2.1.js" crossorigin="anonymous"></script>
+      <script src="./application/js/popper.min.js" crossorigin="anonymous"></script>
+      <script src="./application/js/bootstrap.min.js" crossorigin="anonymous"></script>
+      <script src="./application/js/fontawesome-all.min.js"></script>
       <!-- Custom JavaScript code for your 3d App -->
-      <script src="../application/js/custom.js" crossorigin="anonymous"></script>
+      <script src="./application/js/custom.js" crossorigin="anonymous"></script>
       <!-- JavaScript to swap for SPA and restyle -->
-      <script src="../application/js/swap_restyle.js"></script>
+      <script src="./application/js/swap_restyle.js"></script>
       <!-- Include the x3dom JavaScript -->
-      <script type='text/javascript' src='../application/js/x3dom-1.7.2/x3dom.js'></script>
+      <script type='text/javascript' src='./application/js/x3dom-1.7.2/x3dom.js'></script>
       <!-- JavaScript and PHP based Gallery generator  -->
-      <script type="text/javascript" src="../application/js/gallery_generator.js"></script>
+      <script type="text/javascript" src="./application/js/gallery_generator.js"></script>
       <!-- JQuery code to get content data from a backend JSON file -->
-      <script src="../application/js/getJsonData.js"></script>
+      <script src="./application/js/getJsonData.js"></script>
       <!-- JavaScript model interactions -->
-      <script src="../application/js/modelInteractions.js"></script>
+      <script src="./application/js/modelInteractions.js"></script>
       <!--fancyBox3 => http://fancyapps.com/fancybox/3/ -->
-      <script src="../application/js/jquery.fancybox.min.js"></script>
+      <script src="./application/js/jquery.fancybox.min.js"></script>
   </body>
 </html>

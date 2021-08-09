@@ -41,7 +41,7 @@
                 // Debug
                 console.log('Selected brand model:', selection);
                 // Build a Url path to the php model used to read the drinks brand data
-                var brandUrl = "../application/model/modelDrinkDetails.php?brand=" + selection;
+                var brandUrl = "./application/model/modelDrinkDetails.php?brand=" + selection;
                 // Debug
                 console.log('URL to PHP Model is:', brandUrl);
                 // Fire the AJAX call with the .getJSON function to get the service response from the Url (to the web server)
@@ -64,7 +64,7 @@
                       // And, the drink brand image
                       str +=
                         "<div width='30%'style='float:left; margin:5px;border:1px solid; border-color: green; border-radius: 10px; padding:10px;'>" + 
-                        "<img width='300px' src = '../application/assets/images/gallery_images/" + json[i].brand + ".png'></img>" +
+                        "<img width='300px' src = './application/assets/images/gallery_images/" + json[i].brand + ".png'></img>" +
                         "</div>";
                   }
                   // Close off the container div tag

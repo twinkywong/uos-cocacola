@@ -20,7 +20,7 @@ class Controller {
     function home()
 	{
 		// At the moment data is input from a JSON file directly from the getJsonData.js file using the JQuery AJAX method .getJson()
-		// $.getJSON('../application/model/data.json', function(jsonObj) {handler goes here} — The URL here should really be a path to this home() method.
+		// $.getJSON('./application/model/data.json', function(jsonObj) {handler goes here} — The URL here should really be a path to this home() method.
 		// Then you would:
 		
 		// Insert code to access a method in the Model class that returns a PHP array with the data you need, e.g.
